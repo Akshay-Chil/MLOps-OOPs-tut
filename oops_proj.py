@@ -12,6 +12,13 @@ class chatbook():
         self.loggedin = False
         # self.menu()
 
+    def get_id(self):
+        return chatbook.__user_id
+    
+    def set_id(self, value):
+        chatbook.__user_id = value
+
+    
     def get_name(self):
         return self.__name
     
