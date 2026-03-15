@@ -56,25 +56,25 @@
 # print(emp_1.fullname())
 
 
-class person():
-    def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
+# class person():
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
 
-    def get_name(self):
-        return self.__name
+#     def get_name(self):
+#         return self.__name
 
-    def get_age(self):
-        return self.__age
+#     def get_age(self):
+#         return self.__age
     
-    def set_age(self, years):
-        if years >= 0:
-            self.__age += years
-        else:
-            print('Enter the valid year')
+#     def set_age(self, years):
+#         if years >= 0:
+#             self.__age += years
+#         else:
+#             print('Enter the valid year')
 
-p1 = person('Akshay', 25)
-print(p1.get_name())
-print(p1.get_age())
-p1.set_age(1)
-print(p1.get_age())
+# p1 = person('Akshay', 25)
+# print(p1.get_name())
+# print(p1.get_age())
+# p1.set_age(1)
+# print(p1.get_age())
